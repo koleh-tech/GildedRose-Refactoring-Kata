@@ -20,7 +20,8 @@ In this branch, I have implemented the new requirement.
 
 `archive/original-code`
 
-This branch contains the original code, before the refactoring.
+This branch contains the original code, before the refactoring. You should compare this branch with `main/`.
+The refactoring isn't perfect, but working on it is much easier.
 
 # Getting setup
 
