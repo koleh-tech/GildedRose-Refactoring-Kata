@@ -64,10 +64,8 @@ def update_backstage_pass(item: Item):
 
 
 def update_normal_item(item: Item):
-    if item.name == "Conjured":
-        quality_decrement_amount = 2
-    else:
-        quality_decrement_amount = 1
+    quality_decrement_amount = 2 if item.name == "Conjured" else 1
+
     if item.quality > 0:
         item.quality = item.quality - quality_decrement_amount
     item.sell_in = item.sell_in - 1
